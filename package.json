@@ -1,0 +1,29 @@
+{
+  "name": "yande-api-ts",
+  "version": "1.0.0",
+  "description": "yande-api library for typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyneko/yande-api-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyneko/yande-api-ts/issues"
+  },
+  "homepage": "https://github.com/skyneko/yande-api-ts#readme",
+  "dependencies": {
+    "@types/node": "^13.9.2",
+    "@types/request": "^2.48.4",
+    "@types/request-promise": "^4.1.46",
+    "request": "^2.88.2",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  }
+}
